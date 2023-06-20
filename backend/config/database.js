@@ -8,10 +8,8 @@ const connectDatabase = () => {
         })
         .then((data) => {
             console.log(`database working:  ${data.connection.host} `);
-        })
-        .catch((error) => {
-            console.log(error);
-        });
+        }).catch((err)=>console.log(err))
+      
 };
 
 module.exports = connectDatabase;
