@@ -36,7 +36,7 @@ avatar:{
 },
 role:{
     type:String,
-    default:"Admin",
+    default:"user",
 },
 
 resetPasswordToken:String,
